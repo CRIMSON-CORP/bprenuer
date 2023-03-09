@@ -1,0 +1,401 @@
+/* idea styling */
+
+
+/* idea styling */
+
+.par-stake .ideas h1 {
+    color: var(--light-color);
+}
+
+.par-stake h1 {
+    font-size: 48px;
+}
+
+.par-stake h1 .grey-header {
+    color: #d3d3d3;
+}
+
+.ideas p {
+    color: #797979;
+    font-size: 1.4rem;
+}
+
+.idea {
+    background-color: #202020;
+    padding: 7px;
+    height: 8vh;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 992px) {
+    .idea {
+        width: 90%;
+    }
+}
+
+.idea input {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 5px;
+    width: 70%;
+    caret-color: white;
+}
+
+
+/* idea styling */
+
+
+/* idea styling */
+
+.parent-service {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--dark-color);
+}
+
+.sub-service {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    margin: 2rem 0;
+}
+
+.sub-service p {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+@media screen and (max-width: 992px) {
+    /* .direction {
+    flex-direction: column-reverse !important;
+  } */
+    .fup {
+        width: 100%;
+        margin-bottom: 30px !important;
+    }
+}
+
+
+/* testmo styling */
+
+
+/* testmo styling */
+
+.par-tesmo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-tesmo {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fill {
+    width: 80%;
+}
+
+@media screen and (min-width: 650px) {
+    .fill h5 {
+        padding-right: 4rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .fill img {
+        width: 60%;
+    }
+    .card-icon {
+        margin-bottom: 0 !important;
+    }
+    .sub-service .col-9 {
+        width: 90% !important;
+    }
+    .sub-service p span {
+        text-align: left;
+    }
+}
+
+.fill h5 {
+    color: var(--light-color);
+}
+
+@media screen and (max-width: 992px) {
+    .fill {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .fill h5 {
+        font-size: 14px;
+    }
+}
+
+
+/* testmo styling */
+
+
+/* testmo styling */
+
+
+/* stake styling */
+
+
+/* stake styling */
+
+.par-stake {
+    max-width: 100rem;
+    margin: 0 auto;
+    margin-top: 13vh;
+    overflow-x: hidden;
+    background: var(--deepgrey-color);
+}
+
+.sub-stake {
+    margin: 2rem 0 5rem 0;
+}
+
+@media screen and (max-width: 992px) {
+    .par-stake h1 {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .par-stake h1 {
+        margin: 0 !important;
+        padding-left: 0 !important;
+    }
+}
+
+@media screen and (max-width: 472px) {
+    .par-stake h1 {
+        padding-right: 0 !important;
+        font-size: 35px;
+    }
+}
+
+
+/* stake styling */
+
+
+/* stake styling */
+
+
+/* managemen styling */
+
+
+/* managemen styling */
+
+.dotss img {
+    position: relative;
+}
+
+.overgreen {
+    position: absolute;
+    background-color: #a6ff4c;
+    width: 250px;
+    height: 200px;
+    z-index: 2;
+    bottom: 2%;
+}
+
+
+/* managemen styling */
+
+
+/* managemen styling */
+
+
+/* all styling */
+
+
+/* all styling */
+
+.dot {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: #a6ff4c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* all styling */
+
+
+/* all styling */
+
+.stake-image {
+    position: absolute;
+}
+
+.digital,
+.trace,
+.financial {
+    padding: 14rem 20px 50px 20px;
+}
+
+@media only screen and (max-width: 700px) {
+    .digital,
+    .trace,
+    .financial {
+        padding: 14rem 0px 50px 0px;
+    }
+}
+
+.digital svg,
+.trace svg,
+.financial svg {
+    position: absolute;
+    top: -45px;
+}
+
+@media only screen and (max-width:700px) {
+    /* .digital svg,
+  .trace svg,
+  .financial svg {
+    right: -60vw;
+  } */
+}
+
+.trace svg {
+    top: -135px;
+}
+
+.digital .col-4,
+.trace .col-4,
+.financial .col-4 {
+    position: relative;
+}
+
+.digital .notes p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 145%;
+    text-align: justify;
+    color: #ffffff;
+}
+
+.grid-cards {
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 11rem));
+    align-self: flex-start;
+    gap: 15px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.grid-cards .card {
+    display: flex;
+    flex-direction: column;
+    background-color: #171717;
+    /* padding: 24px 17px; */
+    border-radius: 20px;
+    gap: 10px;
+}
+
+.grid-cards {
+    margin-top: 60px;
+}
+
+.financial+.grid-cards {
+    gap: 15px;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+    .financial+.grid-cards {
+        gap: 20px;
+    }
+}
+
+.grid-cards .card .content {
+    /* font-size: 12px; */
+    line-height: 125.5%;
+    letter-spacing: 0.02em;
+    color: #938d8d;
+}
+
+.financial-footer {
+    margin-top: 2rem;
+}
+
+.par-tesmo {
+    background-color: var(--dark-color);
+}
+
+.black-tag {
+    background-color: white;
+    width: 100%;
+    margin-top: 50px;
+}
+
+@media screen and (max-width:992px) {
+    .digital .notes p,
+    .ideas p,
+    .sub-service p {
+        text-align: justify !important;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .sample svg {
+        width: 20px;
+    }
+    .samples svg {
+        width: 100%;
+    }
+}
+
+
+/* New Caed Ypdate */
+
+.card {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    /* background-color: #f9f9f9 !important; */
+    box-shadow: none;
+    border-radius: .7rem !important;
+    padding-right: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    font-weight: 500;
+    max-width: 12rem;
+    font-size: .9rem!important;
+    opacity: .9;
+}
+
+
+/* 
+.card>* {
+    color: #000 !important;
+} */
+
+.flex-cards {
+    margin-top: 2rem;
+}
+
+@media screen and (max-width:500px) {
+    .grid-cards {
+        padding-left: 0px;
+    }
+}

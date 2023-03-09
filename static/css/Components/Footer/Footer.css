@@ -1,0 +1,21 @@
+.bount{
+    width: 90% !important;
+    color: var(--light-color);
+    padding: 1.5rem 0 7rem 0 !important;
+}
+footer{
+    background-color: var(--dark-color);
+}
+.icans svg{
+    color: var(--light-color);
+    border: 1px solid var(--light-color);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    padding: 6px;
+    text-align: center;
+}
+/* .icans{
+    border: 1px solid var(--light-color);
+    border-radius: 50%;
+} */

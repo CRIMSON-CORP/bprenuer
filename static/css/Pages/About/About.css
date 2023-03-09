@@ -1,0 +1,294 @@
+                    .about-us-hero {
+                        display: flex;
+                        justify-content: space-between;
+                        font-family: 'Plus Jakarta Sans', sans-serif;
+                    }
+                    
+                    .about-us-hero div:first-child {
+                        align-self: center;
+                        margin-left: 7rem;
+                        margin-top: 12rem;
+                    }
+                    
+                    .about-us-hero div h3 {
+                        align-self: center;
+                        font-weight: 700;
+                        color: #393939;
+                        text-transform: uppercase;
+                        font-weight: 700;
+                        font-size: 1.2rem;
+                    }
+                    
+                    .about-us-hero div p {
+                        font-size: 2.8rem;
+                        color: #000;
+                        font-weight: 500;
+                        line-height: 3rem;
+                        margin-top: 1rem;
+                    }
+                    
+                    .about-worldmap {
+                        width: 70rem;
+                    }
+                    
+                    .about-worldmap svg {
+                        width: 100%;
+                        height: 100%;
+                    }
+                    
+                    .about-worldmap img {
+                        width: 100%;
+                    }
+                    
+                    .about-heroimg {
+                        width: 84vw;
+                        margin: 0 auto;
+                    }
+                    
+                    .about-heroimg img {
+                        width: 100%;
+                    }
+                    
+                    .about-us-typo {
+                        width: 77vw;
+                        margin: 0 auto;
+                        margin-top: 4rem;
+                        margin-bottom: 1rem;
+                        color: #000;
+                    }
+                    
+                    .about-us-typo h4 {
+                        font-weight: 400;
+                        font-size: 2.5rem;
+                        margin-bottom: 1.2rem;
+                    }
+                    
+                    .about-us-typo p {
+                        font-weight: 300;
+                        font-size: 1.2rem;
+                    }
+                    
+                    .about-us-gallery {
+                        width: 84vw;
+                        margin: 0 auto;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 2rem;
+                        gap: 3rem;
+                        margin-top: 15rem;
+                        padding-bottom: 8rem;
+                    }
+                    
+                    .about-us-gallery>div {
+                        width: 60rem;
+                    }
+                    
+                    .about-us-gallery>div img {
+                        width: 100%;
+                    }
+                    
+                    .about-us-gallery h5 {
+                        font-weight: 400;
+                        color: #000;
+                        font-size: 2.5rem;
+                    }
+                    
+                    .about-us-gallery h5 span {
+                        color: rgba(15, 226, 74, 1);
+                    }
+                    
+                    .about-us-team {
+                        background-color: #F7F3F3;
+                        padding-top: 8rem;
+                        padding-bottom: 8rem;
+                    }
+                    
+                    .about-us-team>h2,
+                    .about-us-team>p,
+                    .about-us-team>div {
+                        max-width: 100rem;
+                        width: 87vw;
+                        color: #000;
+                        margin: 0 auto;
+                    }
+                    
+                    .about-us-team h2 {
+                        font-weight: 700;
+                        font-size: 2.5rem;
+                    }
+                    
+                    .about-us-team>p {
+                        color: rgba(111, 111, 111, 1);
+                        font: 1rem;
+                        margin-top: 1rem;
+                        margin-bottom: 5rem;
+                    }
+                    
+                    .about-us-card {
+                        width: 14rem;
+                    }
+                    
+                    .about-us-card img {
+                        object-fit: contain;
+                        width: 100%;
+                    }
+                    
+                    .about-us-card>h5 {
+                        font-weight: 700;
+                        font-size: .9rem;
+                        margin-bottom: .2rem;
+                        margin-top: .5rem;
+                        line-height: 1.5;
+                    }
+                    
+                    .about-us-card>p {
+                        font-size: .75rem;
+                        color: rgba(79, 79, 79, 1);
+                        font-weight: 400;
+                    }
+                    
+                    .about-us-card>p span {
+                        display: block;
+                    }
+                    
+                    .about-us-cards {
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 2rem;
+                    }
+                    
+                    @media only screen and (max-width: 1200px) {
+                        .about-worldmap {
+                            /* margin-top: -3rem; */
+                            width: 75rem;
+                            height: 30rem;
+                        }
+                        .about-us-hero div h3 {
+                            font-size: 1rem;
+                        }
+                        .about-us-hero div p {
+                            font-size: 2.2rem;
+                            line-height: 1.2;
+                        }
+                    }
+                    
+                    @media only screen and (max-width: 1000px) {
+                        .about-worldmap {
+                            margin-top: -3rem;
+                            width: 75rem;
+                        }
+                        .about-us-hero div h3 {
+                            font-size: 1rem;
+                        }
+                        .about-us-hero div:first-child {
+                            margin-left: 4rem;
+                            margin-top: 5rem;
+                        }
+                        .about-us-hero div p {
+                            font-size: 2.2rem;
+                            line-height: 1.2;
+                        }
+                        .about-heroimg img {
+                            height: 20rem;
+                            object-fit: cover;
+                        }
+                        .about-heroimg {
+                            width: 90vw;
+                        }
+                        .about-us-typo {
+                            width: 80vw;
+                        }
+                        .about-us-typo h4 {
+                            font-size: 2.2rem;
+                        }
+                        .about-us-typo p {
+                            font-size: 1rem;
+                        }
+                        .about-us-gallery {
+                            font-size: 1.7rem;
+                            margin-top: 12rem;
+                            padding-bottom: 6rem;
+                            margin-top: 6rem;
+                        }
+                        /* .about-us-gallery>div {
+                    width: 30rem;
+                } */
+                        .about-us-gallery h5 {
+                            font-size: 2rem;
+                        }
+                    }
+                    
+                    @media only screen and (max-width: 850px) {
+                        .about-us-hero div:first-child {
+                            margin-left: 2rem;
+                            margin-top: 5rem;
+                        }
+                        .about-worldmap {
+                            width: 60rem;
+                        }
+                        .about-us-hero div h3 {
+                            font-size: .8rem;
+                        }
+                        .about-us-hero div p {
+                            font-size: 2rem;
+                            line-height: 1.2;
+                        }
+                        .about-us-gallery h5 {
+                            font-size: 1.9rem;
+                        }
+                    }
+                    
+                    @media only screen and (max-width: 700px) {
+                        .about-worldmap {
+                            width: 45rem;
+                            height: 30rem;
+                        }
+                        .about-us-hero div h3 {
+                            font-size: .6rem;
+                        }
+                        .about-us-hero div p {
+                            font-size: 1.7rem;
+                        }
+                        .about-us-hero div:first-child {
+                            margin-top: 8rem;
+                        }
+                        .about-us-gallery h5 {
+                            font-size: 1.5rem;
+                        }
+                    }
+                    
+                    @media only screen and (max-width: 550px) {
+                        .about-worldmap {
+                            width: 10rem;
+                            height: 20rem;
+                            visibility: hidden;
+                        }
+                        .about-us-hero div h3 {
+                            font-size: .9rem;
+                            opacity: 70%;
+                        }
+                        .about-us-gallery {
+                            flex-direction: column;
+                            gap: 2rem;
+                        }
+                        .about-us-gallery>div {
+                            width: 80vw;
+                        }
+                    }
+                    
+                    @media only screen and (max-width: 1350px) {
+                        .about-us-card {
+                            width: 12rem;
+                        }
+                    }
+                    
+                    @media only screen and (max-width: 450px) {
+                        .about-us-cards {
+                            justify-content: center;
+                        }
+                        .about-us-card {
+                            width: 19rem;
+                        }
+                    }

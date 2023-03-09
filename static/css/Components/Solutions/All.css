@@ -1,0 +1,78 @@
+#digital-agric-more {
+    display: flex;
+    max-width: 100rem;
+    margin: 0 auto;
+    gap: 1rem;
+    background-color: #FAFAFA;
+    padding: 1rem;
+    color: black;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#digital-agric-more pre {
+    width: 10rem;
+}
+
+#digital-agric-more pre svg {
+    width: 100%;
+}
+
+#digital-agric-more>p {
+    color: #000 !important;
+    font-size: .9rem;
+}
+
+.digital-learnmore {
+    align-self: flex-start;
+    margin-top: 4rem;
+    font-weight: 700;
+    color: #000;
+    cursor: pointer;
+    padding-left: 20px;
+    margin-top: 2rem;
+    /* padding-left: .7rem; */
+}
+
+.digital-learnmore svg {
+    margin-left: 1rem;
+}
+
+
+/* animation for digital here */
+
+.digital-hide {
+    display: none;
+}
+
+
+/* darkmode */
+
+.services-dark .digital-learnmore {
+    color: #fff;
+}
+
+.services-dark .card {
+    background: rgba(23, 23, 23, 1) !important;
+}
+
+.services-dark .card>* {
+    color: rgba(147, 141, 141, 1) !important;
+}
+
+.services-dark #digital-agric-more {
+    background-color: #000;
+}
+
+.services-dark #digital-agric-more>p {
+    color: #fff!important;
+}
+
+
+/* learn more tweak on the new design */
+
+.learnmore-flex-parent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}

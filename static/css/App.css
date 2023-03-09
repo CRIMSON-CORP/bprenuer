@@ -1,0 +1,444 @@
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    border: none;
+    background-color: whitesmoke;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--lightgreen-color);
+    height: 5px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
+
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.dark .navbar {
+    background-color: white;
+    color: black;
+}
+
+.dark .navbar button {
+    background-color: white !important;
+    color: black !important;
+    border: 2px solid black !important;
+}
+
+.dark .par-home {
+    background-color: white;
+}
+
+
+/* .dark .par-home h1 {
+  color: black;
+}
+
+.dark .par-home p {
+  color: #181818;
+} */
+
+.dark .par-robust {
+    background: #fff;
+}
+
+.dark .innovation {
+    color: black;
+}
+
+.dark .par-challenges {
+    background-color: white;
+}
+
+.dark .lightgreen {
+    color: #000;
+    opacity: .8
+}
+
+.dark .left span {
+    color: black;
+}
+
+.dark .sdgs {
+    background: white;
+}
+
+.dark .par-solution {
+    background-color: white;
+}
+
+.dark .par-solution h1 {
+    color: black;
+}
+
+.dark .cardss {
+    background-color: white;
+    /* box-shadow: none !important; */
+}
+
+.dark .card p {
+    color: black;
+}
+
+.dark .par-solution .cards {
+    background-color: white;
+    padding: 0px 10px;
+}
+
+.dark .par-solution .cards.gap-5 {
+    gap: 1.5rem !important;
+}
+
+.dark .par-stake {
+    background: white;
+}
+
+.dark .par-stake h1 .grey-header {
+    color: #656565 !important;
+}
+
+.dark .par-stake .darkwhitetext {
+    color: black !important;
+}
+
+.dark .parent-service {
+    background: white;
+}
+
+.dark .parent-service h3 {
+    color: black !important;
+}
+
+.dark .parent-service p {
+    color: #6F6F6F !important;
+}
+
+.dark .grid-cards .card {
+    background-color: #f9f9f9;
+}
+
+.dark .grid-cards .card>* {
+    color: #000 !important
+}
+
+.dark .gotideasSection {
+    background-color: white !important;
+}
+
+.dark .gotideasSection h1 b {
+    color: #767676 !important;
+}
+
+.dark .gotideasSection p {
+    color: #767676 !important;
+}
+
+.dark .idea {
+    background: #F3F3F3 !important;
+}
+
+.dark .par-tesmo {
+    background-color: white;
+}
+
+.dark .parent-touch {
+    background: white;
+    color: black;
+}
+
+.dark .parent-touch h4 {
+    font-size: 40px;
+}
+
+.dark .message {
+    background: white;
+    color: black;
+}
+
+.dark #na {
+    border: 2px solid rgba(0, 0, 0, 0.603);
+    color: black;
+}
+
+.dark #na::placeholder {
+    color: black;
+}
+
+.dark .name select {
+    border: 2px solid rgba(0, 0, 0, 0.603);
+    color: black;
+}
+
+.dark #writ {
+    border: 2px solid rgba(0, 0, 0, 0.603);
+    color: black;
+}
+
+.dark #writ::placeholder {
+    color: black;
+}
+
+
+/* Portfolio Page  */
+
+.portfolio {
+    background-color: white;
+}
+
+.dark.portfolio {
+    background-color: black;
+}
+
+.portfolio-top-case {
+    margin-top: 250px !important;
+    width: 100%;
+}
+
+.portfolio-case-top {
+    width: 45%;
+}
+
+.portfolio-case-top>div span:first-of-type {
+    font-family: Plus Jakarta Display;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgba(255, 131, 0, 0.97);
+}
+
+.portfolio-case-top>div span:last-of-type {
+    font-family: Plus Jakarta Display;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.portfolio-case-top h1 {
+    font-family: Plus Jakarta Display;
+    font-size: 34px;
+    font-weight: 400;
+    color: black;
+    margin: 15px 0px;
+}
+
+.portfolio-case-top p {
+    font-family: Plus Jakarta Display;
+    font-size: 16px;
+    font-weight: 300;
+    max-width: 78%;
+    text-align: justify;
+}
+
+.portfolio-case-bottom {
+    width: 90%;
+    max-height: 290px;
+    margin-top: 50px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.portfolio-case-bottom img {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-news {
+    width: 80%;
+    margin-top: 200px;
+}
+
+.portfolio-news-top img {
+    width: 40px;
+}
+
+.portfolio-news-bottom {
+    padding-top: 70px;
+}
+
+.portfolio-news-bottom p {
+    font-family: Plus Jakarta Display;
+    font-size: 20px;
+    font-weight: 400;
+    Line-height: 40px;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.portfolio-other-title {
+    width: 80%;
+    margin: 100px 0px;
+}
+
+.portfolio-other-main {
+    width: 100%;
+    height: 60vh;
+}
+
+.portfolio-other-imgitem {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    /* overflow: hidden; */
+}
+
+.portfolio-other-imgitem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolio-other-item {
+    width: 50%;
+    height: 100%;
+    padding: 40px;
+    color: white;
+    background: rgba(91, 91, 91, 1);
+}
+
+.portfolio-other-item h1 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.portfolio-other-item p {
+    font-size: 35px;
+    font-weight: 500;
+    margin: 10px 0px;
+    line-height: 50px;
+}
+
+.portfolio-other-item a {
+    color: #0FE24A;
+    font-family: Plus Jakarta Display;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.dark.portfolio .portfolio-case-top h1 {
+    color: white;
+}
+
+.dark.portfolio .portfolio-case-top p {
+    color: rgb(187, 187, 187);
+}
+
+.dark.portfolio .portfolio-news-bottom p {
+    color: white;
+}
+
+.dark.portfolio .portfolio-other-title h1 {
+    color: white;
+}
+
+@media screen and (max-width:1200px) {
+    .portfolio-case-top {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .portfolio-case-top {
+        width: 70%;
+    }
+    .portfolio-other-imgitem {
+        width: 30%;
+    }
+    .portfolio-other-item {
+        width: 70%;
+    }
+    .portfolio-other-item p {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:782px) {
+    .portfolio-case-top {
+        width: 90%;
+    }
+    .portfolio-case-top h1 {
+        font-size: 30px;
+        margin: 25px 0px;
+    }
+    .portfolio-other-imgitem {
+        width: 0%;
+    }
+    .portfolio-other-item {
+        width: 100%;
+    }
+    .portfolio-other-main {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width:544px) {
+    .portfolio-case-top p {
+        font-size: 15px;
+        max-width: 100%;
+    }
+    .portfolio-news {
+        width: 90%;
+    }
+    .portfolio-news-top img {
+        width: 30px;
+    }
+    .portfolio-news-bottom p {
+        font-size: 18px;
+        Line-height: 35px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .portfolio-other-item h1 {
+        font-size: 20px;
+    }
+    .portfolio-other-item p {
+        font-size: 25px;
+        line-height: 33px;
+    }
+    .portfolio-other-item {
+        padding: 20px;
+    }
+}
+
+
+/* dark-mode for about us */
+
+.dark-about .about-us-hero,
+.dark-about,
+.dark-about .about-us-typo>*,
+.dark-about .about-us-team {
+    background-color: #000;
+}
+
+.dark-about .about-us-hero h3,
+.dark-about .about-us-hero p,
+.dark-about .about-us-typo>*,
+.dark-about .about-us-gallery>*,
+.dark-about .about-us-team>* {
+    color: #fff;
+}
+
+.fixed-top {
+    z-index: 50 !important;
+}
+
+
+/* max width for large screens */
+
+.parent-service {
+    max-width: 100rem;
+    margin: 0 auto;
+}

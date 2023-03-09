@@ -1,0 +1,307 @@
+                    .product-modal {
+                        margin-left: 2rem;
+                        margin-top: 2rem;
+                        margin-right: 2rem;
+                    }
+                    
+                    .product-modal>div>h3,
+                    .product-modal h3 {
+                        font-size: 1.2rem;
+                        color: #000;
+                        margin-bottom: 1rem;
+                        font-weight: 400;
+                    }
+                    
+                    .product-modal>div {
+                        margin-bottom: 2.5rem;
+                    }
+                    
+                    .product-modal>div:nth-child(2) {
+                        display: flex;
+                        gap: 4%;
+                        justify-content: space-between;
+                    }
+                    
+                    .product-modal>div:nth-child(3) {
+                        display: flex;
+                        gap: 24rem;
+                    }
+                    
+                    .product-modal>div:nth-child(3) aside span {
+                        font-weight: 700;
+                        color: rgba(95, 94, 94, 1);
+                        margin-top: .4rem;
+                        display: inline-block;
+                    }
+                    /* .product-modal>div:nth-child(3) aside {
+    margin-bottom: 1rem;
+} */
+                    
+                    .product-modal>div:nth-child(3) aside:first-child input {
+                        background-color: rgba(241, 241, 241, 1);
+                        padding: .8rem .7rem;
+                        border-radius: .4rem;
+                        border: none;
+                        color: rgba(95, 94, 94, 1);
+                        font-weight: 500;
+                        font-size: .8rem;
+                        text-align: center;
+                    }
+                    
+                    .product-modal>div:nth-child(2) aside {
+                        width: 46%;
+                    }
+                    
+                    .product-modal>div:nth-child(4) aside,
+                    .product-modal>div:nth-child(5) aside {
+                        display: flex;
+                        column-gap: 3rem;
+                        row-gap: 1.5rem;
+                        flex-wrap: wrap;
+                    }
+                    
+                    .product-modal>div:nth-child(4) aside div,
+                    .product-modal>div:nth-child(5) aside div {
+                        display: flex;
+                        align-items: center;
+                        gap: .7rem;
+                    }
+                    
+                    .product-modal>div:nth-child(4) {
+                        margin-bottom: 3rem;
+                    }
+                    
+                    .product-modal>div:nth-child(4) aside div input,
+                    .product-modal>div:nth-child(5) aside div input {
+                        /* width: 1.2rem;
+        height: 1.2rem; */
+                    }
+                    
+                    .product-modal>div:nth-child(4) aside div input:checked,
+                    .product-modal>div:nth-child(5) aside div input:checked {
+                        accent-color: rgba(0, 102, 255, 1);
+                    }
+                    
+                    .product-modal>div:nth-child(4) aside div>*,
+                    .product-modal>div:nth-child(5) aside div>* {
+                        display: inline-block;
+                        white-space: nowrap;
+                    }
+                    
+                    .product-modal>div:nth-child(6) {
+                        margin-bottom: 1rem;
+                    }
+                    
+                    .product-modal>div input {
+                        border: none;
+                        border-bottom: .5px solid #000;
+                        width: 100%;
+                        font-size: 1.3rem;
+                        color: #000;
+                    }
+                    
+                    .product-modal>div input:focus {
+                        outline: none;
+                    }
+                    
+                    .product-modal>div input::placeholder {
+                        color: rgba(203, 204, 202, 1);
+                        font-size: 1.3rem;
+                        margin-bottom: 1rem;
+                        opacity: .8;
+                    }
+                    
+                    .product-modal-btn,
+                    .product-modal-btn2 {
+                        display: flex;
+                        justify-content: right;
+                        margin-bottom: 0rem!important;
+                    }
+                    
+                    .product-modal-btn button {
+                        display: inline-block;
+                        margin: 0 auto;
+                        border: none;
+                        background-color: #000;
+                        color: #fff;
+                        padding: 1.1rem 4rem;
+                        border-radius: .6rem;
+                        margin: 1rem 0;
+                        font-size: 1rem;
+                        font-weight: 700;
+                    }
+                    /* ant design tweak */
+                    
+                    .ant-modal-content {
+                        border-radius: 2rem !important;
+                    }
+                    /* second modal */
+                    
+                    .product-modal-2 {
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                    }
+                    
+                    .product-modal-2 h3 {
+                        font-size: 1.2rem;
+                        font-weight: 500;
+                        margin-top: 5rem;
+                    }
+                    
+                    .product-modal-2 h2 {
+                        font-size: 2.2rem;
+                        font-weight: 400;
+                        margin-top: 3rem;
+                        margin-bottom: 1.5rem;
+                    }
+                    
+                    .product-modal-2-div1 {
+                        color: rgba(95, 94, 94, 1);
+                        font-weight: 700;
+                        gap: 2rem;
+                    }
+                    
+                    .product-modal-2 div {
+                        display: flex;
+                    }
+                    
+                    .product-modal-2 div span {
+                        display: inline-block;
+                    }
+                    
+                    .product-modal-2 hr {
+                        width: 70%;
+                        margin: 4rem 0;
+                    }
+                    
+                    .product-modal-2 p {
+                        font-size: 1.2rem;
+                        font-weight: 400;
+                        width: 13rem;
+                        text-align: center;
+                        margin-bottom: 8rem;
+                    }
+                    
+                    .product-modal-2-div2 {
+                        gap: .4rem;
+                        font-weight: 700;
+                        cursor: pointer;
+                    }
+                    
+                    .product-modal-2-div2 span:last-child {
+                        text-decoration: underline;
+                        text-underline-offset: .2rem;
+                    }
+                    
+                    .product-modal div:nth-child(3) aside:nth-child(2) select {
+                        color: rgba(95, 94, 94, 1);
+                        font-weight: 500;
+                        border: none;
+                        margin-top: 1rem;
+                        outline: none;
+                        cursor: pointer;
+                    }
+                    
+                    .new-additions-state {
+                        margin-top: 1rem;
+                        align-items: center;
+                    }
+                    
+                    .new-additions-state select {
+                        color: rgba(95, 94, 94, 1);
+                        font-weight: 500;
+                        border: none;
+                        outline: none;
+                        cursor: pointer;
+                        display: block;
+                        width: 19%;
+                        font-size: 1em;
+                        padding: 0.8rem 0.5rem;
+                        /* border: 1px solid #333; */
+                        font-family: inherit;
+                        /** for the dropdown indicator */
+                        appearance: none;
+                        background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+                        background-repeat: no-repeat;
+                        background-position: right 1rem center;
+                        background-size: 1em;
+                    }
+                    
+                    .country-dropdown {
+                        width: 46% !important;
+                    }
+                    
+                    .product-modal-btn2 button {
+                        display: inline-block;
+                        margin: 0 auto;
+                        border: none;
+                        color: rgba(40, 40, 40, 1);
+                        background-color: #fff;
+                        margin: 1rem 0;
+                        font-size: 1rem;
+                        font-weight: 700;
+                    }
+                    /* tweak to the modal design */
+                    
+                    .ant-modal {
+                        width: 50vw !important;
+                    }
+                    
+                    @media only screen and (max-width: 1250px) {
+                        .ant-modal {
+                            width: 60vw !important;
+                        }
+                        .product-modal>div:nth-child(3) {
+                            display: flex;
+                            justify-content: space-between;
+                            gap: 0rem;
+                        }
+                    }
+                    
+                    @media only screen and (max-width: 1050px) {
+                        .ant-modal {
+                            width: 70vw !important;
+                        }
+                    }
+                    
+                    @media only screen and (max-width: 900px) {
+                        .ant-modal {
+                            width: 80vw !important;
+                        }
+                    }
+                    
+                    @media only screen and (max-width: 750px) {
+                        .ant-modal {
+                            width: 90vw !important;
+                        }
+                    }
+                    
+                    @media only screen and (max-width: 600px) {
+                        .ant-modal {
+                            width: 98vw !important;
+                        }
+                        .product-modal {
+                            margin-left: 0rem;
+                            margin-right: 0rem
+                        }
+                    }
+                    
+                    @media only screen and (max-width: 450px) {
+                        .product-modal>div:nth-child(2) {
+                            display: flex;
+                            gap: 2rem;
+                            justify-content: space-between;
+                            flex-direction: column;
+                        }
+                        .product-modal>div:nth-child(2) aside {
+                            width: 100%;
+                        }
+                        .product-modal>div:nth-child(3) aside:first-child input {
+                            width: 8rem;
+                        }
+                        .product-modal-btn button {
+                            padding: 1.1rem 3rem;
+                            font-size: .9rem;
+                        }
+                    }
